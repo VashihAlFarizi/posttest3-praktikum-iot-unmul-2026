@@ -62,6 +62,6 @@ bendungan pintar memerlukan sistem pemantauan ketinggian air dan pengendalian pi
 
 ## **Link Video Demo** ##
 
-LINK: https://youtu.be/1UBeoprrq2o
+LINK: https://youtu.be/w-G-KfeK0v8
 
 ---
