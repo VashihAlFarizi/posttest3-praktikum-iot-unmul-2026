@@ -59,7 +59,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
   if (strcmp(topic, "vashih/posttest3/control") == 0) {
 
-    // ===== MODE (LEBIH FLEXIBLE & ANTI GAGAL) =====
+    // ===== MODE =====
     if (message.indexOf("AUTO") >= 0) {
       modeAuto = true;
       Serial.println(">>> PINDAH KE AUTO");
@@ -145,7 +145,7 @@ void loop() {
       buzzerActive = false;
     } else {
       servoPos = 180;
-      buzzerActive = true; // 🔥 aktif → nanti kedip
+      buzzerActive = true;
     }
   }
 
